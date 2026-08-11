@@ -1,0 +1,41 @@
+{{/*
+    Custom theme overrides that need to appear in <head>.
+*/}}
+<style>
+    #hero h1 {
+        font-size: clamp(28px, 5vw, 48px) !important;
+    }
+
+    #hero h2 {
+        font-size: clamp(18px, 3vw, 28px) !important;
+    }
+
+    #hero .image img {
+        transform: scale(1.15);
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 90% !important;
+        }
+    }
+
+    #hero {
+        min-height: auto !important;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    #about ul li::before,
+    #experience .experience-container .tab-content .tab-pane ul li::before {
+        content: "\2022" !important; /* standard bullet, broad font support */
+    }
+
+    #about,
+    #certifications,
+    #education,
+    #projects {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+</style>

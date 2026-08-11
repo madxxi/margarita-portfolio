@@ -1,0 +1,398 @@
+baseURL: "https://madxxi.github.io/margarita-portfolio/"
+languageCode: "en-us"
+title: "Margarita R. Galofre | Logistics & Supply Chain Management | Medical & Travel Insurance"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# No blog/gallery menu items — this is a single-page portfolio.
+# Add them back here later if you want to write posts.
+Menus:
+  main: []
+
+params:
+  title: "Margarita R. Galofre | Export/Import Air, Ocean and Ground Logistics; Supply Chain Management; Medical & Travel Insurance"
+  description: "Over 9 years of experience as an Insurance Agent at HealthMarkets Insurance Agency, I specialize in providing tailored health, life, and Medicare insurance solutions to individuals, families, across Florida."
+  favicon: "/images/fav.png"
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Margarita R. Galofre"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # ---- HERO ----
+  hero:
+    enable: true
+    intro: "Hi, Welcome to my portfolio site!"
+    title: "Margarita Galofre"
+    subtitle: "Air, Ocean and Ground Experience | Supply Chain Management | Medical & Travel Insurance"
+    content: >-
+      With over 9 years of experience as an Insurance Agent at HealthMarkets Insurance Agency, I specialize in providing tailored health, 
+      life, and Medicare insurance solutions to individuals, families, across Florida. My role emphasizes offering a diverse portfolio of products, 
+      including supplemental insurance plans, Medicare plans, and individual health insurance, backed by recognized insurance carriers.
+      Guided by my certifications, including the Affordable Care Act & Marketplace Certification, I work to empower clients with comprehensive 
+      coverage options and valuable insights on Medicare Part D and turning 65. Committed to serving the needs of beneficiaries and under 65 customers.  I strive to deliver transparent, personalized insurance  Quotes and solutions that align with their unique circumstances and goals. 
+    image: "/images/Margarita-HeroPic.jpg"
+    bottomImage:
+      enable: false
+    buttons:
+      - enable: true
+        name: "Export/Import Resume"
+        url: "/documents/MargaritaGalofre_Export-Import_Resume.pdf"
+        download: true
+        newPage: false
+      - enable: true
+        name: "Insurance Agent Resume"
+        url: "/documents/MargaritaG_InsuranceAgent_Resume.pdf"
+        download: true
+        newPage: false
+
+
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/margarita-r-galofre-1a353431/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/margarita-r-galofre-insurance/
+        - icon: fab fa-github
+          url: https://github.com/madxxi
+        - icon: fa fa-envelope
+          url: mailto:galofremargaritar@gmail.com
+#        - icon: fas fa-thumbs-up
+#          url: "/documents/Margarita-RecommendationsReceived.pdf"
+
+  # ---- ABOUT ----
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/Adam-CzechRepublic.jpg"
+    content: |-
+      MARITIME, AIR, AND LAND LOGISTICS LEADER:
+      • Results-driven logistics professional with over 18 years of progressive experience managing high-value international shipments across ocean, 
+      air, and ground transportation for Latin America and the Caribbean markets. Handled monthly cargo volumes valued at $32–80 million, coordinating 
+      end-to-end operations including export documentation (LCL/FCL), AES filings, hazardous materials compliance (IMO), carrier scheduling, and customs 
+      processes while consistently exceeding customer expectations and maintaining exceptional service levels. Excelled in fast-paced, high-stakes environments 
+      as a TSA-approved specialist with strong expertise in UPS, DHL, FedEx, and major accounts (Xerox, HP, Ingram Micro, Kodak, Goya, Digicel).
+      • Proven leader who supervised teams of 6–9 members across multiple roles, driving daily operational excellence, rapid conflict resolution, 
+      and staff training programs that ensured seamless continuity and knowledge transfer. Key achievements include averting a potential $500,000 
+      foreign customs penalty through meticulous record scrutiny and documentation, consistently surpassing monthly cargo delivery targets for multinational 
+      clients, and supporting the regional expansion of Digicel (a $202M+ company) by orchestrating timely device deliveries across 31+ markets. 
+      Recognized for building customer trust, reducing risks, and delivering reliable, high-impact logistics performance in complex global supply chains.
+
+    skills:
+      enable: true
+      title: "Core tools and technologies:"
+      items:
+        - "Leadership / Supervisor / Mentoring"
+        - "Training / Onboarding"
+        - "Export/Import Documentation"
+        - "Air, Ocean, and Ground Logistics"
+        - "Supply Chain Management"
+        - "Customer Service / Client Relations" 
+        - "Bilingual (English/Spanish)"
+        - "Strategic Planning / Process Improvement"
+        - "Problem Solving / Conflict Resolution"
+        - "TSA-Certified / Security Compliance"
+        - "Insurance Agent / HealthMarkets"
+        - "Medicare & ACA Marketplace Certified"
+        - "Insurance Solutions / Supplemental Plans"
+        - "Insurance Solutions / Individual Health Plans"
+        - "Insurance Solutions / Life Insurance Plans"
+        - "Insurance Solutions / Travel Insurance Plans"
+        - "Insurance Solutions / Medicare Plans"
+        - "Insurance Solutions / Medicare Part D Plans"
+        - "Insurance Solutions / Turning 65 Guidance"
+        - "Insurance Solutions / Beneficiaries & Under 65 Customers"
+        - "Insurance Solutions / Personalized Quotes & Solutions"
+        - "Insurance Solutions / Transparent & Tailored Coverage Options"
+        
+  # ---- EXPERIENCE ----
+  # Add earlier roles below the Amadeus entry as additional "company" blocks.
+  experience:
+    enable: true
+    items:
+      - company: "GAP Forwarding, Logistics & Supply Chain Management"
+        companyUrl: "https://www.gapnvocc.com/"
+        jobs:
+          - name: "Senior Logistics Specialist"
+            date: "January 2022 - November 2023"
+            location:  "Doral, FL"
+            info:
+              content: "Senior Logistics Specialist responsible for managing high-value international shipments across ocean, air, 
+                       and ground transportation for Latin America and the Caribbean markets."
+            content: |
+             • Handling 32-80 Million USD of monthly cargo for countries in the Caribbean and Latin America.
+             • Daily operations of ocean (BOL’s Masters), air, (AWB’s) and ground logistics Chain.
+             • Coordination of communications with all parties involved for each shipment. 
+             • Organize and schedule cargo pickups for export and asses value of the cargo to be shipped. 
+             • Responsible for accurate and efficient input of supplier data into the US Customs Automated Export System (AES) and customer billing.
+             • Coordinator of shipments while ensuring increased customer satisfaction and quick resolution of customer conflicts. 
+             • Experience brought to the job:
+               o 14+ Year of experience in Logistics Department that includes export documentation for LCL and FCL (Less, full container load)
+               o Preparation of UPS, DHL, FedEx documentation 
+               o Preparation of IMO’s for Hazardous Materials
+               o TSA approved
+               o Ability to work in fast paced environment
+               o Excellent customer service and client relations skills
+
+          - name: "Export / Import Supervisor"
+            date: "September 2010 - August 2017"
+            info:
+              content: "Senior Logistics Specialist responsible for managing high-value international shipments across ocean, 
+                       air, and ground transportation for Latin America and the Caribbean markets."
+            content: |
+             • Organize and schedule cargo pickups for export and assess value of the cargo to be shipped. 
+             • Lead a team of 8 personnel whose primary duties include the daily operations of Ocean (Masters),
+             Air, (AWB’s) and Ground Logistics Chain. This entails coordination of communications with all parties involved for each shipment. 
+             • Handled special accounts such as Xerox, HP, Ingram Micro, Kodak, Goya Products etc.
+             • Achieved accurate and efficient input of supplier data into the US Customs Automated Export System (AES) and customer billing.
+             • Coordinator of shipments while ensuring increased customer satisfaction and quick resolution of customer conflicts. 
+             • Accountable for the training of new personnel assigned to the shipping department.
+             • 13 Year of experience in Logistics Department to include export documentation for LCL and FCL (Less, full container load)
+             • Preparing UPS, DHL, FedEx documentation
+             • Preparing IMO’s for Hazardous Materials
+             • TSA approved
+
+             Achievements:
+             o	2010-2016: Supervised a team that was part of the Musson Jamaica Limited group and provided services to one of the largest Network 
+             solutions providers in Central America and the Caribbean, Digicel; my team serviced 34 countries as part of this $202 MM multinational company.   
+             I supervised a talented, passionate, and highly ethical team who was committed to excellence and to meet their customers and shareholder’s needs.
+             o	2005-2010: Member of a team that helped with the expansion of the largest mobile phone network provider of Central America and the Caribbean, 
+             Digicel, which by the end of 2017 served more than 31 markets, our team arranged the collection and delivered mobile devices to all their markets in the region.
+
+          - name: "Export / Import Manager Assistant"
+            date: "September 2005 - September 2010"
+            info:
+              content: "Assistant logistics manager responsible for managing high-value international shipments across ocean, 
+                       air, and ground transportation for Latin America and the Caribbean markets."
+            content: |
+             • Supervisor of a team of 6 personnel whose primary duties included the daily operations of ocean, air, and ground logistics. 
+             This entails coordination of communications with all parties involved for each shipment. 
+             • Organize and schedule cargo pickups for export and assess value of the cargo to be shipped. 
+             • Accountable for the accurate and efficient input of supplier data into the US Customs Automated Export System (AES) and customer billing.
+             • Coordinator of shipments while ensuring increased customer satisfaction and quick resolution of customer conflicts. 
+             • Handled the training of new personnel assigned to the shipping department
+
+  # ---- EDUCATION ----
+  education:
+    enable: true
+    items:
+      - title: "Executive, Business Administration (EMBA) - 2013"
+        school:
+          name: "University of Florida"
+          url: "https://www.ufl.edu"
+        featuredLink:
+          enable: true
+          name: "Graduation Certificate: Executive Business Administration (EMBA)"
+          url: "/documents/MDiaz-UF-MBA-2013.pdf"
+          download: true
+          newPage: false
+
+  # ---- CERTIFICATIONS ----
+  certifications:
+    enable: true
+    title: "Certifications and Licenses"
+    items:
+      - title: "0214 - Life & Variable Contracts Insurance Agent: Lic W134686"
+        issuer: "Florida Deparment of Financial Services"
+        date:  "Dec 20, 2017"
+        image: "/images/certifications/MS-certified-fundamentals-badge.svg"    # optional badge; omit the line entirely if you don't have one
+        content: "Life & Variable Contracts Insurance Agent"
+        documentUrl: "/documents/certifications/MDiaz-MS_Azure_Data_Fundamentals_Sep2023.pdf"
+        download: true
+        newPage: false      
+        verifyUrl: "https://learn.microsoft.com/en-us/users/mynordiaz-2519/credentials/1efa74aecb812ddb"
+      - title: "Microsoft Certified: Azure Fundamentals"
+        issuer: "Microsoft"
+        date:  "May 23, 2022"
+        image: "/images/certifications/MS-certified-fundamentals-badge.svg"    # optional badge; omit the line entirely if you don't have one
+        content: "Certified Azure Data Fundamentals"
+#        documentUrl: "/documents/certifications/MDiaz-MS_Azure_Data_Fundamentals_Sep2023.pdf"
+#        download: true
+#        newPage: false      
+        verifyUrl: "https://www.credly.com/badges/f2ea7614-1112-4d3d-8016-3a96fc4abe7f/public_url"        
+      - title: "ITIL Practitioner" 
+        issuer: "EXIN International"
+        date:  "Feb 2007"
+        image: "/images/certifications/ITIL.png"    # optional badge; omit the line entirely if you don't have one
+        content: "Certified ITIL Practitioner"
+        documentUrl: "/documents/certifications/MDiaz_ITILCertificate_FEB2007.pdf"
+        download: true
+        newPage: false        
+#        verifyUrl: "https://www.exin.com/certificates/verify?certificate=MDiaz_ITILCertificate_FEB2007.pdf"
+      - title: "SAFe Practitioner"
+        issuer: "SAFe by Scaled Agile"
+        date:  "Feb 2021"
+        image: "/images/certifications/SAFe.png"    # optional badge; omit the line entirely if you don't have one
+        content: "Certified SAFe Practitioner"
+        documentUrl: "/documents/certifications/MDiaz-SAFe-Practitioner_Certification_JAN2021.pdf"
+        download: true
+        newPage: false        
+#        verifyUrl: "https://www.exin.com/certificates/verify?certificate=MDiaz_SAFePractitioner_Certificate_JAN2021.pdf"
+      - title: "Predictive Analytics and Data Mining"
+        issuer: "The Modeling Agency"
+        date:  "Aug 2013"
+        image: "/images/certifications/Data-Mining.png"    # optional badge; omit the line entirely if you don't have one
+        content: "Data Mining and Predictive Analytics Certificate from The Modeling Agency"
+        documentUrl: "/documents/certifications/MDiaz_PredictiveAnalytics-DataMining_CompletionCert_Aug2013.pdf"
+        download: true
+        newPage: false        
+#        verifyUrl: "https://www.exin.com/certificates/verify?certificate=MDiaz_SAFePractitioner_Certificate_JAN2021.pdf"
+
+  # ---- ACHIEVEMENTS ----
+  # Use this section for certifications, veteran recognition, or specific
+  # wins you can point to — swap the placeholders for real specifics.
+  achievements:
+    enable: true
+    title: "Background & Recognition"
+    items:
+      - title: "MTTR Reduction & Reliability Engineering: 99.x% Availability"
+        content: "Always Lead or Sr. of a team that Helped maintain 99.x% 
+                 availability across reservation platform services (2005-2026)"
+      - title: "SaFE/ITIL Practitioner"
+        content: "Certified ITIL & SaFE practitioner, with experience leading 
+                 ITIL-based incident, change, and problem management for high-availability systems."
+      - title: "U.S. Military Veteran"
+        content: "Service background informing a disciplined, process-oriented approach to operations and incident response."
+
+  # ---- PROJECTS / TECHNICAL ARTIFACTS ----
+  # This is the section that differentiates you from a resume PDF.
+  # Replace each `link` below with the real GitHub repo URL once you push
+  # your sanitized PromQL library, Grafana dashboards, and runbook.
+  projects:
+    enable: true
+    title: "Technical Artifacts"
+    items:
+      - title: "PromQL Alerting Pattern Library"
+        content: "A sanitized collection of Prometheus alerting rules and PromQL query 
+                  patterns for common SRE scenarios: latency, errors, saturation, pod states,
+                  infrastructure health, availabilty, etc."
+        image: "/images/projects/prometheus.png"
+        featured:
+          name: "View Repo"
+          link: "https://github.com/madxxi/prometheus-alerting-patterns"
+        badges:
+          - "Prometheus"
+          - "PromQL"
+          - "Alerting-as-Code"
+        links:
+          - icon: fab fa-github
+            url: "https://madxxi.github.io/prometheus-alerting-patterns/"
+
+
+      - title: "Grafana Dashboard Gallery (WIP)"
+        content: "Sanitized Grafana dashboard exports (JSON) demonstrating layout, 
+                  variable templating, and alerting integration for on-call visibility"
+        image: "/images/projects/grafana-logo.png"
+        featuredLinks:
+          - name: "Grafana Dashboard Demo"
+            link: "https://adamdemo.duckdns.org/d/host-self-monitoring/host-metrics-self-monitoring?orgId=1&refresh=30s&from=now-1h&to=now"
+          - name: "Amadeus IT Group Observability Case"
+            link: "https://www.redhat.com/en/blog/amadeus-it-group-observability-openshift"
+        badges:
+          - "Grafana"
+          - "Observability"
+#        links:
+#          - icon: fab fa-github
+#            url: "https://github.com/madxxi/grafana-dashboard"
+
+      - title: "Perses (Related Project)"
+        content: "Perses is an open-source, Kubernetes-native dashboarding project I follow as 
+                 an emerging alternative to Grafana — included here for reference, not an original work of mine."
+        image: "/images/projects/Perses.png"
+        badges:
+          - "Related Projects"
+          - "Observability"
+        featured:
+          name: "Check out Perses"
+          link:  "https://perses.dev/"        
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/perses/perses"
+
+
+      - title: "Incident Response Runbook Template"
+        content: "A generalized incident-response runbook and postmortem template reflecting 
+                 ServiceNow-based routing and escalation practices for high-availability environments."
+        image: "/images/projects/incident-management-workflow.png"
+        featured:
+          name: "View Repo"
+          link: "https://github.com/madxxi/incident-runbook-templates"
+        badges:
+          - "Incident Response"
+          - "ServiceNow"
+          - "Process"
+        links:
+          - icon: fab fa-github
+            url: "https://madxxi.github.io/incident-runbook-templates/"
+
+  # ---- CONTACT ----
+  contact:
+    enable: true
+    content: "Open to SRE Management, Incident/Change/Problem Management, Lead/Senior SRE, Platform Engineering, and Cloud Infrastructure roles — remote or hybrid (40/50; 50/50) South Florida based. Reach out directly."
+    btnName: "Email Me"
+    btnLink: "mailto:mr.mynor.diaz@gmail.com"
+
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      github: https://github.com/madxxi/
+      linkedin: https://www.linkedin.com/in/mynor-diaz
+
+  singlePages:
+    socialShare: false
+    scrollprogress:
+      enable: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"

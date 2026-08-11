@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.164.0"><script src="/adam-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=adam-portfolio/livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/adam-portfolio/images/fav.png" type="image/jpg">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/adam-portfolio/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/adam-portfolio/">
+	<meta property="og:site_name" content="Mynor A. Diaz | Site Reliability & Platform Engineering">
+	<meta property="og:title" content="Mynor A. Diaz | Site Reliability & Platform Engineering">
+	<meta property="og:description" content="Lead Systems Engineer with 20&#43; years in SRE, platform operations, and observability for high-availability, global-scale infrastructure.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Mynor A. Diaz | Site Reliability & Platform Engineering">
+	<meta name="twitter:description" content="Lead Systems Engineer with 20&#43; years in SRE, platform operations, and observability for high-availability, global-scale infrastructure.">
+
+
+
+
+
+<link rel="stylesheet" href="/adam-portfolio/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/adam-portfolio/css/header.css" media="all">
+<link rel="stylesheet" href="/adam-portfolio/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/adam-portfolio/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/adam-portfolio/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+<style>
+    #hero h1 {
+        font-size: clamp(28px, 5vw, 48px) !important;
+    }
+
+    #hero h2 {
+        font-size: clamp(18px, 3vw, 28px) !important;
+    }
+
+    #hero .image img {
+        transform: scale(1.15);
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 90% !important;
+        }
+    }
+
+    #hero {
+        min-height: auto !important;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    #about ul li::before,
+    #experience .experience-container .tab-content .tab-pane ul li::before {
+        content: "\2022" !important;  
+    }
+
+    #about,
+    #certifications,
+    #education,
+    #projects {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+</style>
+
+
+<meta name="description" content=Lead&#32;Systems&#32;Engineer&#32;with&#32;20&#43;&#32;years&#32;in&#32;SRE,&#32;platform&#32;operations,&#32;and&#32;observability&#32;for&#32;high-availability,&#32;global-scale&#32;infrastructure.>
+<link rel="stylesheet" href="/adam-portfolio/css/index.css" media="all">
+<link rel="stylesheet" href="/adam-portfolio/css/projects.css" media="all">
+
+
+<script defer src="/adam-portfolio/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Mynor A. Diaz | Site Reliability &amp; Platform Engineering
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/adam-portfolio/">
+                
+                <img src="/adam-portfolio/images/fav.png" width="48" height="48"
+                    class="d-inline-block align-top rounded-circle" style="object-fit: cover;">
+                Mynor A. Diaz
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/adam-portfolio/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/adam-portfolio/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/adam-portfolio/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/adam-portfolio/#certifications"
+                            aria-label="certifications">
+                            Certifications
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/adam-portfolio/#projects"
+                            aria-label="projects">
+                            Technical Artifacts
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/adam-portfolio/#achievements"
+                            aria-label="achievements">
+                            Background &amp; Recognition
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/adam-portfolio/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content"><section id="hero" class="py-5 align-middle">
+    <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 content animate" id="primary-font">
+                <span class="subtitle">
+                    Hi, Welcome to my portfolio site!
+                </span>
+                <h1>
+                    Mynor A. Diaz
+                </h1>
+                <h2>
+                    Lead Systems Engineer — SRE, Platform Ops &amp; Observability, Incident/Change/Problem Management!
+                </h2>
+                <p class="hero-content">
+                    20+ years keeping high-availability, global-scale systems running. Most recently was leading reliability  engineering for airline reservation infrastructure at Amadeus IT Group. I helped build alerting-as-code  based on Templates with Prometheus/PromQL, assisted with design of Grafana dashboards that teams actually use,  and treat incident response like a discipline, not a fire drill.   Remember this:  It&rsquo;s not only about fixing the problem, it&rsquo;s about preventing it from happening again.
+                </p>
+                <div class="row">
+                    <div class="col-auto h-100">
+                                    <a href="/adam-portfolio/documents/MynorDiaz-Lead_SRE-ResiliencyOperations_ND.pdf" class="btn" download>
+                                        Lead/Senior SRE Resume
+                                    </a>
+                                    <a href="/adam-portfolio/documents/MynorDiaz_SRE-Management_ND.pdf" class="btn" download>
+                                        SRE Manager Resume
+                                    </a>
+                                    <a href="/adam-portfolio/documents/MynorDiaz_Incident-Manager_ND.pdf" class="btn" download>
+                                        Incident Manager Resume
+                                    </a>
+                    </div>
+                    <div class="col-auto px-0 h-100"><span>
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/mynor-diaz"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://github.com/madxxi"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fab fa-github"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="mailto:mr.mynor.diaz@gmail.com"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fa fa-envelope"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="/adam-portfolio/documents/Adam-RecommendationsReceived_JUL2026.pdf"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fas fa-thumbs-up"></i>
+        </a>
+    </span>
+    
+
+    
+</span>
+</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-9 pt-5 image animate px-5 px-md-5 px-lg-0 text-center">
+                        <img src="/adam-portfolio/images/Adam-HeroPic.jpg"
+                            class="img-thumbnail mx-auto"
+                            alt="Mynor A. Diaz | Service Reliability &amp; Platform Engineering profile image"
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section id="about" class="py-0 py-sm-5">
+    <div class="container bg-transparent">
+        <h3 class="text-center bg-transparent">About Me</h3>
+        <div class="bg-transparent row justify-content-center px-3 py-5">
+            
+            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
+                <div class="image d-flex px-5">
+                    <img src="/adam-portfolio/images/Adam-CzechRepublic.jpg" class="img-thumbnail mx-auto rounded-circle" style="width:clamp(220px, 24vw, 360px);max-width:none;height:auto;" alt="Mynor A. Diaz | Service Reliability &amp; Platform Engineering profile picture">
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-12 col-lg-8 content">
+                <p>I&rsquo;m a Lead Systems Engineer with 20+ years of experience across site reliability
+engineering, platform operations, and observability tooling, most recently at
+<strong>Amadeus</strong>, working within high-availability global airline reservation infrastructure.</p>
+<p>I have also delved, as part of that experience, into the ITIL model realm dealing with
+incident, change, and problem management, and led teams in a 24/7 environment to maintain
+99.x% availability for production mission-critical systems.</p>
+<p>My focus is on making systems observable and incidents boring: alerting-as-code with
+Prometheus and PromQL, Grafana dashboards, and helping design and build systems that are
+centered on prevention and self-recovery and actually reach the people who actually get
+things corrected, with git-based workflows for infrastructure changes, and clean incident
+routing through ServiceNow or another incident management system. I hold a MS in Computer
+Information Systems from Nova Southeastern University and a MBA from the University of Florida,
+and I&rsquo;m a U.S. military veteran.</p>
+<p>I&rsquo;m currently open to Lead/Senior SRE, Platform Engineering, and Cloud Infrastructure roles.
+I am also available for Incident/Change/Problem Management as well as SRE Management roles,
+primarily remote, but open to hybrid (40/60) based in South Florida in Broward County or Northern Miami Dade.</p>
+<p>Remember, it&rsquo;s not only what I can personally bring into the table, which is enormously important!
+I also know a strong network of SREs, platform engineers, cloud architects, and other experts that can
+solidify and help build a stronger team.</p>
+
+
+                
+                Core tools and technologies:
+                <ul>
+                    
+                    <li>Leadership / Management / Mentoring</li>
+                    
+                    <li>Training / Onboarding</li>
+                    
+                    <li>Prometheus / PromQL / Thanos / Alert Management</li>
+                    
+                    <li>Grafana</li>
+                    
+                    <li>Bitbucket / GitHub</li>
+                    
+                    <li>AI Augmented Engineering (LLMs, ChatGPT, Copilot, Claude, etc.)</li>
+                    
+                    <li>ServiceNow</li>
+                    
+                    <li>Kubernetes</li>
+                    
+                    <li>Linux</li>
+                    
+                    <li>CI/CD</li>
+                    
+                    <li>Automation / Scripting (Go, Shell, Python)</li>
+                    
+                    <li>Cloud (Azure, OpenShift)</li>
+                    
+                    <li>Incident Management</li>
+                    
+                    <li>Change Management</li>
+                    
+                    <li>Problem Management</li>
+                    
+                    <li>Jira / Confluence</li>
+                    
+                    <li>Terraform</li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Experience</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+                <div class="experience-container px-3 pt-2">
+                    <ul class="nav nav-pills mb-2 bg-transparent primary-font" id="pills-tab" role="tablist">
+                        
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link active bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='amadeus-jan-2019-mar-2026-mar-2020-may-2023-remote--tab'
+                                    data-bs-target='#pills-amadeus-jan-2019-mar-2026-mar-2020-may-2023-remote-'
+                                    aria-controls='amadeus-jan-2019-mar-2026-mar-2020-may-2023-remote-'
+                                >
+                                    Amadeus
+                                </div>
+                            </li>
+                        
+                    </ul>
+
+                    <div class="tab-content pb-3 bg-transparent primary-font" id="pills-tabContent">
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent show active"
+                                role="tabpanel"
+                                id='pills-amadeus-jan-2019-mar-2026-mar-2020-may-2023-remote-'
+                                aria-labelledby='amadeus-jan-2019-mar-2026-mar-2020-may-2023-remote--tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Senior Service Reliability Engineer (SRE) - Cloud Technologies</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=Site&#32;reliability&#32;&amp;&#32;platform&#32;operations&#32;for&#32;global&#32;airline&#32;reservation&#32;infrastructure
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="https://www.amadeus.com" target="_blank">Amadeus</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Jan 2019 - Mar 2026 / Mar 2020- May 2023 (Remote)</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <p>Leading reliability engineering and platform operations for high-availability,
+global-scale airline reservation systems.</p>
+<ul>
+<li>Owned reliability and operations for 460+ mission-critical production applications (reservations,
+ticketing, inventory) serving global travel customers, consistently achieving 98–99% availability and strict SLOs in a 24/7
+high-traffic SaaS environment.</li>
+<li>Spearheaded a major JIRA Epic to standardize, consolidate, and automate alerts using Prometheus, Thanos,
+PromQL, Go, and ServiceNow — significantly reduced alert noise, enabled on-the-fly Grafana dashboards, and
+improved operational efficiency across the organization.</li>
+<li>Led large-scale cloud migrations from legacy physical/virtual Linux systems to private OpenShift (v3/v4) and
+public Azure, delivering zero business disruption while modernizing infrastructure and reducing operational
+overhead.</li>
+<li>Drove end-to-end incident, problem, and change management using ITIL best practices; championed blameless
+postmortems and continuous improvements that enhanced system stability and recovery speed.</li>
+<li>Helped developed automation scripts and tooling (Go, Shell, GitHub Actions) to reduce manual toil, accelerate
+deployments, and improve monitoring and recovery processes.</li>
+<li>Trained and onboarded 25+ engineers on cloud services, incidents, and recovery best practices within a SAFe
+Agile framework.</li>
+<li>Via team efforts, streamlined incident routing and response through ServiceNow, improving by at least 10%
+the mean time to acknowledge (MTTA) and mean time to resolve (MTTR) for critical incidents, and with it also facilitating automation.</li>
+</ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h5">Sre SRE (Unix/Linux) / Lead Systems Engineer</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=Sr.&#32;and&#32;then&#32;Lead&#32;Systems&#32;Engineer&#32;of&#32;teams&#32;responsible&#32;for&#32;all&#32;production&#32;Linux/Unix&#32;systems&#32;supporting&#32;airline&#32;reservation&#32;infrastructure
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Oct 2004 - Jun 2008 / Jul 2008 - Dec 2018</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <ul>
+<li>Led a global 24/7 team of 9 SREs, driving mission-critical platform availability to an average of 99% for systems
+supporting the global travel industry, while directing all incident, change, and problem management using ITIL best
+practices.</li>
+<li>Owned operational stability and risk management for a multi-million Euro environment spanning over 5,500
+production and test systems (HP-UX, Linux, multiple architectures), overseeing high-availability cluster operations
+(Veritas, MC/ServiceGuard) and all major OS/database upgrades.</li>
+<li>Championed automation and reliability engineering, developing custom scripts and tools (Perl, PHP, HTML) to
+enhance monitoring, accelerate fault recovery, and eliminate toil, directly supporting the team’s ability to meet stringent
+availability targets.</li>
+<li>Managed cross-functional technical execution, including Oracle version migrations, IBM MQ incident resolution, and
+oversight of administrative environments (Dev/Pre-Prod/Prod), ensuring coordinated, low-risk change implementation
+across the entire technology stack.</li>
+</ul>
+
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Education</h3>
+        <div class="row justify-content-center py-5">
+            
+            
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small></small>
+                                </div>
+                                <h5 class="card-title">Executive, Business Administration (EMBA) - 2013</h5>
+                                
+                                
+                                <a href="https://www.ufl.edu" target="_blank">
+                                    <h6>
+                                    University of Florida
+                                    </h6>
+                                </a>
+                                
+
+                                
+                                <div class="py-1 education-content">
+                                    
+                                </div>
+
+                                
+                                <div class="py-1">
+                                    <a href="/adam-portfolio/documents/MDiaz-UF-MBA-2013.pdf" class="btn" download>
+                                        Graduation Certificate: Executive Business Administration (EMBA)
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small></small>
+                                </div>
+                                <h5 class="card-title">MS, Computer Information Systems - 2007</h5>
+                                
+                                
+                                <a href="https://www.nova.edu" target="_blank">
+                                    <h6>
+                                    Nova Southeastern University
+                                    </h6>
+                                </a>
+                                
+
+                                
+                                <div class="py-1 education-content">
+                                    
+                                </div>
+
+                                
+                                <div class="py-1">
+                                    <a href="/adam-portfolio/documents/MDiaz-NovaUniversity_MCIS_OCT2007.pdf" class="btn" download>
+                                        Graduation Certificate: Computer Information Systems (MS CIS)
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section id="certifications" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Certifications</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-3 px-md-5 px-lg-5">
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="Microsoft Certified: Azure Data Fundamentals">
+                        
+                        <div class="card-head d-flex justify-content-center align-items-center" style="height: 100px;">
+                            <img src="/adam-portfolio/images/certifications/MS-certified-fundamentals-badge.svg" alt="Microsoft Certified: Azure Data Fundamentals badge"
+                                style="max-height: 90px; max-width: 90px; width: auto; height: auto; object-fit: contain;">
+                        </div>
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent" style="font-size: 1rem;">Microsoft Certified: Azure Data Fundamentals</h5>
+                            
+                            <div class="card-subtitle secondary-font mb-2">
+                                Microsoft &middot; Sep 25, 2023
+                            </div>
+                            
+                            
+                            <div class="card-text secondary-font mb-3">
+                                Certified Azure Data Fundamentals
+                            </div>
+                            
+                            <div class="d-flex flex-wrap" style="gap: 0.5rem;">
+                                
+                                <a href="/adam-portfolio/documents/certifications/MDiaz-MS_Azure_Data_Fundamentals_Sep2023.pdf" class="btn btn-sm"
+                                    download>
+                                    View Certificate
+                                </a>
+                                
+                                
+                                <a href="https://learn.microsoft.com/en-us/users/mynordiaz-2519/credentials/1efa74aecb812ddb" class="btn btn-sm" target="_blank">
+                                    Verify
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="Microsoft Certified: Azure Fundamentals">
+                        
+                        <div class="card-head d-flex justify-content-center align-items-center" style="height: 100px;">
+                            <img src="/adam-portfolio/images/certifications/MS-certified-fundamentals-badge.svg" alt="Microsoft Certified: Azure Fundamentals badge"
+                                style="max-height: 90px; max-width: 90px; width: auto; height: auto; object-fit: contain;">
+                        </div>
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent" style="font-size: 1rem;">Microsoft Certified: Azure Fundamentals</h5>
+                            
+                            <div class="card-subtitle secondary-font mb-2">
+                                Microsoft &middot; May 23, 2022
+                            </div>
+                            
+                            
+                            <div class="card-text secondary-font mb-3">
+                                Certified Azure Data Fundamentals
+                            </div>
+                            
+                            <div class="d-flex flex-wrap" style="gap: 0.5rem;">
+                                
+                                
+                                <a href="https://www.credly.com/badges/f2ea7614-1112-4d3d-8016-3a96fc4abe7f/public_url" class="btn btn-sm" target="_blank">
+                                    Verify
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="ITIL Practitioner">
+                        
+                        <div class="card-head d-flex justify-content-center align-items-center" style="height: 100px;">
+                            <img src="/adam-portfolio/images/certifications/ITIL.png" alt="ITIL Practitioner badge"
+                                style="max-height: 90px; max-width: 90px; width: auto; height: auto; object-fit: contain;">
+                        </div>
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent" style="font-size: 1rem;">ITIL Practitioner</h5>
+                            
+                            <div class="card-subtitle secondary-font mb-2">
+                                EXIN International &middot; Feb 2007
+                            </div>
+                            
+                            
+                            <div class="card-text secondary-font mb-3">
+                                Certified ITIL Practitioner
+                            </div>
+                            
+                            <div class="d-flex flex-wrap" style="gap: 0.5rem;">
+                                
+                                <a href="/adam-portfolio/documents/certifications/MDiaz_ITILCertificate_FEB2007.pdf" class="btn btn-sm"
+                                    download>
+                                    View Certificate
+                                </a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="SAFe Practitioner">
+                        
+                        <div class="card-head d-flex justify-content-center align-items-center" style="height: 100px;">
+                            <img src="/adam-portfolio/images/certifications/SAFe.png" alt="SAFe Practitioner badge"
+                                style="max-height: 90px; max-width: 90px; width: auto; height: auto; object-fit: contain;">
+                        </div>
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent" style="font-size: 1rem;">SAFe Practitioner</h5>
+                            
+                            <div class="card-subtitle secondary-font mb-2">
+                                SAFe by Scaled Agile &middot; Feb 2021
+                            </div>
+                            
+                            
+                            <div class="card-text secondary-font mb-3">
+                                Certified SAFe Practitioner
+                            </div>
+                            
+                            <div class="d-flex flex-wrap" style="gap: 0.5rem;">
+                                
+                                <a href="/adam-portfolio/documents/certifications/MDiaz-SAFe-Practitioner_Certification_JAN2021.pdf" class="btn btn-sm"
+                                    download>
+                                    View Certificate
+                                </a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="Predictive Analytics and Data Mining">
+                        
+                        <div class="card-head d-flex justify-content-center align-items-center" style="height: 100px;">
+                            <img src="/adam-portfolio/images/certifications/Data-Mining.png" alt="Predictive Analytics and Data Mining badge"
+                                style="max-height: 90px; max-width: 90px; width: auto; height: auto; object-fit: contain;">
+                        </div>
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent" style="font-size: 1rem;">Predictive Analytics and Data Mining</h5>
+                            
+                            <div class="card-subtitle secondary-font mb-2">
+                                The Modeling Agency &middot; Aug 2013
+                            </div>
+                            
+                            
+                            <div class="card-text secondary-font mb-3">
+                                Data Mining and Predictive Analytics Certificate from The Modeling Agency
+                            </div>
+                            
+                            <div class="d-flex flex-wrap" style="gap: 0.5rem;">
+                                
+                                <a href="/adam-portfolio/documents/certifications/MDiaz_PredictiveAnalytics-DataMining_CompletionCert_Aug2013.pdf" class="btn btn-sm"
+                                    download>
+                                    View Certificate
+                                </a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Technical Artifacts</h3>
+        <div class="row justify-content-center px-3 px-md-5">
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="PromQL Alerting Pattern Library">
+                    <div class="card-head d-flex justify-content-center align-items-center" style="height: 90px;">
+                        <img src="/adam-portfolio/images/projects/prometheus.png" alt="PromQL Alerting Pattern Library"
+                            style="max-height: 70px; max-width: 70px; width: auto; height: auto; object-fit: contain;">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Prometheus</span>
+                            
+                            <span class="badge badge-secondary">PromQL</span>
+                            
+                            <span class="badge badge-secondary">Alerting-as-Code</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">PromQL Alerting Pattern Library</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            A sanitized collection of Prometheus alerting rules and PromQL query patterns for common SRE scenarios: latency, errors, saturation, pod states, infrastructure health, availabilty, etc.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://madxxi.github.io/prometheus-alerting-patterns/" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end m-1">
+                            <a class="btn btn-sm" href="https://github.com/madxxi/prometheus-alerting-patterns" target="_blank">
+                                View Repo
+                            </a>
+                        </span>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Grafana Dashboard Gallery (WIP)">
+                    <div class="card-head d-flex justify-content-center align-items-center" style="height: 90px;">
+                        <img src="/adam-portfolio/images/projects/grafana-logo.png" alt="Grafana Dashboard Gallery (WIP)"
+                            style="max-height: 70px; max-width: 70px; width: auto; height: auto; object-fit: contain;">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Grafana</span>
+                            
+                            <span class="badge badge-secondary">Observability</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Grafana Dashboard Gallery (WIP)</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            Sanitized Grafana dashboard exports (JSON) demonstrating layout, variable templating, and alerting integration for on-call visibility
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        
+                        
+                        <span class="float-end m-1">
+                            <a class="btn btn-sm" href="https://adamdemo.duckdns.org/d/host-self-monitoring/host-metrics-self-monitoring?orgId=1&amp;refresh=30s&amp;from=now-1h&amp;to=now" target="_blank">
+                                Grafana Dashboard Demo
+                            </a>
+                        </span>
+                        
+                        <span class="float-end m-1">
+                            <a class="btn btn-sm" href="https://www.redhat.com/en/blog/amadeus-it-group-observability-openshift" target="_blank">
+                                Amadeus IT Group Observability Case
+                            </a>
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Perses (Related Project)">
+                    <div class="card-head d-flex justify-content-center align-items-center" style="height: 90px;">
+                        <img src="/adam-portfolio/images/projects/Perses.png" alt="Perses (Related Project)"
+                            style="max-height: 70px; max-width: 70px; width: auto; height: auto; object-fit: contain;">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Related Projects</span>
+                            
+                            <span class="badge badge-secondary">Observability</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Perses (Related Project)</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            Perses is an open-source, Kubernetes-native dashboarding project I follow as an emerging alternative to Grafana — included here for reference, not an original work of mine.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/perses/perses" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end m-1">
+                            <a class="btn btn-sm" href="https://perses.dev/" target="_blank">
+                                Check out Perses
+                            </a>
+                        </span>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Incident Response Runbook Template">
+                    <div class="card-head d-flex justify-content-center align-items-center" style="height: 90px;">
+                        <img src="/adam-portfolio/images/projects/incident-management-workflow.png" alt="Incident Response Runbook Template"
+                            style="max-height: 70px; max-width: 70px; width: auto; height: auto; object-fit: contain;">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Incident Response</span>
+                            
+                            <span class="badge badge-secondary">ServiceNow</span>
+                            
+                            <span class="badge badge-secondary">Process</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Incident Response Runbook Template</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            A generalized incident-response runbook and postmortem template reflecting ServiceNow-based routing and escalation practices for high-availability environments.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://madxxi.github.io/incident-runbook-templates/" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end m-1">
+                            <a class="btn btn-sm" href="https://github.com/madxxi/incident-runbook-templates" target="_blank">
+                                View Repo
+                            </a>
+                        </span>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+<section id="achievements" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Background &amp; Recognition</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-3 px-md-5 px-lg-5">
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="MTTR Reduction &amp; Reliability Engineering: 99.x% Availability">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">MTTR Reduction &amp; Reliability Engineering: 99.x% Availability</h5>
+                            <div class="card-text secondary-font">
+                                Always Lead or Sr. of a team that Helped maintain 99.x% availability across reservation platform services (2005-2026)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="SaFE/ITIL Practitioner">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">SaFE/ITIL Practitioner</h5>
+                            <div class="card-text secondary-font">
+                                Certified ITIL &amp; SaFE practitioner, with experience leading ITIL-based incident, change, and problem management for high-availability systems.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="U.S. Military Veteran">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">U.S. Military Veteran</h5>
+                            <div class="card-text secondary-font">
+                                Service background informing a disciplined, process-oriented approach to operations and incident response.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Get in Touch</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-md-5">
+                <div class="col-md-8 py-3">
+                    <div class="text-center">
+                        Open to SRE Management, Incident/Change/Problem Management, Lead/Senior SRE, Platform Engineering, and Cloud Infrastructure roles — remote or hybrid (40/50; 50/50) South Florida based. Reach out directly.
+                    </div>
+                    
+                    <div class="text-center pt-3">
+                        <a 
+                            href='
+                                    mailto:mr.mynor.diaz@gmail.com
+                                  '
+                            target="_blank"
+                            class="btn"
+                        >
+                            Email Me
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-form-status"></div>
+</section>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check-circle-fill" viewBox="0 0 16 16">
+    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+  </symbol>
+  <symbol id="info-fill" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+  <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </symbol>
+</svg>
+
+  </div><footer>
+    
+
+
+ 
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/madxxi/" target="_blank" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/mynor-diaz" target="_blank" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/adam-portfolio/" title="Mynor A. Diaz | Site Reliability &amp; Platform Engineering">
+                        <img alt="Footer logo" src="/adam-portfolio/images/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2026  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/adam-portfolio/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
+    }
+</script>
+
+
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
