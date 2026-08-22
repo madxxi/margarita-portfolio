@@ -75,18 +75,18 @@ params:
       coverage options and valuable insights on Medicare Part D and turning 65. Committed to serving the needs of beneficiaries and under 65 customers.  I strive to deliver transparent, personalized insurance  Quotes and solutions that align with their unique circumstances and goals. 
     image: "/images/Margarita-HeroPic.jpg"
     bottomImage:
-      enable: false
+      enable: true
     buttons:
       - enable: true
         name: "Export/Import Resume"
         url: "/documents/MargaritaGalofre_Export-Import_ND.pdf"
-        download: true
-        newPage: false
+        download: false
+        newPage: true
       - enable: true
         name: "Insurance Agent Resume"
-        url: "/documents/MargaritaG_Insurance-Realty_ND.pdf"
-        download: true
-        newPage: false
+        url: "/documents/MargaritaGalofre_Insurance-Realty_ND.pdf"
+        download: false
+        newPage: true
 
 
     socialLinks:
@@ -99,8 +99,8 @@ params:
           url: https://github.com/madxxi/margarita-portfolio
         - icon: fa fa-envelope
           url: mailto:margarita.galofre@gmail.com
-#        - icon: fas fa-thumbs-up
-#          url: "/documents/Margarita-RecommendationsReceived.pdf"
+        - icon: fa fa-envelope
+          url: mailto:galofremargaritar@gmail.com
 
   # ---- ABOUT ----
   about:
