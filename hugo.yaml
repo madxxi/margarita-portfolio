@@ -79,12 +79,12 @@ params:
     buttons:
       - enable: true
         name: "Export/Import Resume"
-        url: "/documents/MargaritaGalofre_Export-Import_Resume.pdf"
+        url: "/documents/MargaritaGalofre_Export-Import_ND.pdf"
         download: true
         newPage: false
       - enable: true
         name: "Insurance Agent Resume"
-        url: "/documents/MargaritaG_InsuranceAgent_Resume.pdf"
+        url: "/documents/MargaritaG_Insurance-Realty_ND.pdf"
         download: true
         newPage: false
 
@@ -150,7 +150,7 @@ params:
         - "Insurance Solutions / Transparent & Tailored Coverage Options"
         
   # ---- EXPERIENCE ----
-  # Add earlier roles below the Amadeus entry as additional "company" blocks.
+  # Add all earlier roles and additional "company" blocks.
   experience:
     enable: true
     items:
