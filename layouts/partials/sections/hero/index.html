@@ -28,7 +28,7 @@
                         {{- if $heroButtons }}
                             {{- range $heroButtons }}
                                 {{- if .enable | default true }}
-                                    <a href="{{ .url | strings.TrimPrefix "/" | relURL }}" class="btn" {{ cond .download "download" "" }}{{ if .newPage | default true }} target="_blank"{{ end }}>
+                                    <a href="{{ .url | strings.TrimPrefix "/" | relURL }}" class="btn" {{ if .download }}download{{ end }}{{ if .newPage | default true }} target="_blank"{{ end }}>
                                         {{ .name }}
                                     </a>
                                 {{- end }}
