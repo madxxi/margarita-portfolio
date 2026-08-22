@@ -220,15 +220,15 @@ params:
   education:
     enable: false
     items:
-      - title: "Executive, Business Administration (EMBA) - 2013"
+      - title: "Education Section: Pending titles"
         school:
           name: "University of XXXXXXX"
-          url: "https://www.ufl.edu"
+          url: "https://www.[university].edu"
         featuredLink:
-          enable: true
-          name: "Graduation Certificate: Executive Business Administration (EMBA)"
-          url: "/documents/MDiaz-UF-MBA-2013.pdf"
-          download: true
+          enable: false
+          name: "Graduation Certificate: [Name of title]"
+#          url: "/documents/document.pdf"
+          download: false
           newPage: false
 
   # ---- CERTIFICATIONS ----
@@ -262,9 +262,9 @@ params:
     enable: true
     title: "Background & Recognition"
     items:
-      - title: "MTTR Reduction & Reliability Engineering: 99.x% Availability"
-        content: "Always Lead or Sr. of a team that Helped maintain 99.x% 
-                 availability across reservation platform services (2005-2026)"
+      - title: "Mention your achievement title here"
+        content: "Description of the achievement 
+                 can be a few lines"
 
   # ---- PROJECTS / TECHNICAL ARTIFACTS ----
   # This is the section that differentiates you from a resume PDF.
@@ -272,23 +272,21 @@ params:
   # your sanitized PromQL library, Grafana dashboards, and runbook.
   projects:
     enable: true
-    title: "Technical Artifacts"
+    title: "Projects and Demos"
     items:
-      - title: "PromQL Alerting Pattern Library"
-        content: "A sanitized collection of Prometheus alerting rules and PromQL query 
-                  patterns for common SRE scenarios: latency, errors, saturation, pod states,
-                  infrastructure health, availabilty, etc."
-        image: "/images/projects/prometheus.png"
+      - title: "[Title]"
+        content: "Brief description
+                 about this project or demo"
+#        image: "/images/projects/image.png"
         featured:
-          name: "View Repo"
-          link: "https://github.com/madxxi/prometheus-alerting-patterns"
+#          name: "View Repo"
+#          link: "https://github.com/madxxi/[repo]"
         badges:
-          - "Prometheus"
-          - "PromQL"
-          - "Alerting-as-Code"
+          - "Badge 1"
+          - "Badge 2"
         links:
           - icon: fab fa-github
-            url: "https://madxxi.github.io/prometheus-alerting-patterns/"
+            url: "https://madxxi.github.io/[project-name]/"
 
   # ---- CONTACT ----
   contact:
