@@ -101,6 +101,8 @@ params:
           url: mailto:margarita.galofre@gmail.com
         - icon: fa fa-envelope
           url: mailto:galofremargaritar@gmail.com
+#        - icon: fas fa-thumbs-up
+#          url: "/documents/Margie-RecommendationsReceived_AUG2026.pdf"
 
   # ---- ABOUT ----
   about:
