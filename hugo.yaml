@@ -92,7 +92,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/margarita-r-galofre-1a353431/
+          url: https://www.linkedin.com/in/margarita-galofre/
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/margarita-galofre-insurance/
         - icon: fab fa-github
@@ -265,9 +265,6 @@ params:
       - title: "MTTR Reduction & Reliability Engineering: 99.x% Availability"
         content: "Always Lead or Sr. of a team that Helped maintain 99.x% 
                  availability across reservation platform services (2005-2026)"
-      - title: "SaFE/ITIL Practitioner"
-        content: "Certified ITIL & SaFE practitioner, with experience leading 
-                 ITIL-based incident, change, and problem management for high-availability systems."
 
   # ---- PROJECTS / TECHNICAL ARTIFACTS ----
   # This is the section that differentiates you from a resume PDF.
@@ -296,16 +293,22 @@ params:
   # ---- CONTACT ----
   contact:
     enable: true
+    title: "Get In Touch"
     content: "Open to Logistics Specialist | Export/Import Supervisor | Supply Chain Supervisor"
-    btnName: "Email Me"
-    btnLink: "mailto:margarita.galofre@gmail.com"
+    emails:
+      - label: "Contact me for Logistics Opportunities"
+        address: "mailto:margarita.galofre@gmail.com"
+      - label: "Contact me for your Insurance needs"
+        address: "mailto:galofremargaritar@gmail.com"
 
   footer:
     recentPosts:
       enable: false
     socialNetworks:
       github: https://github.com/madxxi/margarita-portfolio
-      linkedin: https://www.linkedin.com/in/margarita-galofre
+      linkedinProfiles: 
+        - https://www.linkedin.com/in/margarita-galofre
+        - https://www.linkedin.com/in/margarita-galofre-insurance
 
   singlePages:
     socialShare: false
