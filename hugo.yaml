@@ -244,7 +244,7 @@ params:
         documentUrl: "/documents/certifications/MGalofre-LifeVariableContract_Dec2017.pdf"
         download: false
         newPage: true
-#        verifyUrl: "https://learn.microsoft.com/en-us/users/mynordiaz-2519/credentials/1efa74aecb812ddb"
+##        verifyUrl: "https://learn.microsoft.com/en-us/users/mynordiaz-2519/credentials/1efa74aecb812ddb"
       - title: "Residential Insurance License"
         issuer: "Florida Department of Financial Services"
         date:  "Dec 20, 2017"
@@ -253,7 +253,7 @@ params:
         documentUrl: "/documents/certifications/MGalofre-InsuranceLicense_Dec2017.pdf"
         download: false
         newPage: true
-#        verifyUrl: "https://www.credly.com/badges/f2ea7614-1112-4d3d-8016-3a96fc4abe7f/public_url"        
+##        verifyUrl: "https://www.credly.com/badges/f2ea7614-1112-4d3d-8016-3a96fc4abe7f/public_url"        
 
   # ---- ACHIEVEMENTS ----
   # Use this section for certifications, veteran recognition, or specific
