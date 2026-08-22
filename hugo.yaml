@@ -297,9 +297,9 @@ params:
     content: "Open to Logistics Specialist | Export/Import Supervisor | Supply Chain Supervisor"
     emails:
       - label: "Contact me for Logistics Opportunities"
-        address: "mailto:margarita.galofre@gmail.com"
+        address: "margarita.galofre@gmail.com"
       - label: "Contact me for your Insurance needs"
-        address: "mailto:galofremargaritar@gmail.com"
+        address: "galofremargaritar@gmail.com"
 
   footer:
     recentPosts:
