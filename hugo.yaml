@@ -279,7 +279,7 @@ params:
         content: "Brief description
                  about this project or demo"
 #        image: "/images/projects/image.png"
-        featured:
+#        featured:
 #          name: "View Repo"
 #          link: "https://github.com/madxxi/[repo]"
         badges:
