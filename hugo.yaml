@@ -79,12 +79,12 @@ params:
     buttons:
       - enable: true
         name: "Export/Import Resume"
-        url: "/documents/MargaritaGalofre_Export-Import_ND.pdf"
+        url: "/documents/MargaritaGalofre_Export-Import_ND.doc"
         download: false
         newPage: true
       - enable: true
         name: "Insurance Agent Resume"
-        url: "/documents/MargaritaGalofre_Insurance-Realty_ND.pdf"
+        url: "/documents/MargaritaGalofre_Insurance_ND.doc"
         download: false
         newPage: true
 
