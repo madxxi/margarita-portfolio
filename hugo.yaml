@@ -68,12 +68,15 @@ params:
     title: "Margarita Galofre"
     subtitle: "Air, Ocean and Ground Experience | Supply Chain Management | Medical & Travel Insurance"
     content: >-
-      With over 9 years of experience as an Insurance Agent at HealthMarkets Insurance Agency, I specialize in providing tailored health, 
-      life, and Medicare insurance solutions to individuals, families, across Florida. My role emphasizes offering a diverse portfolio of products, 
-      including supplemental insurance plans, Medicare plans, and individual health insurance, backed by recognized insurance carriers.
-      Guided by my certifications, including the Affordable Care Act & Marketplace Certification, I work to empower clients with comprehensive 
-      coverage options and valuable insights on Medicare Part D and turning 65. Committed to serving the needs of beneficiaries and under 65 customers.  I strive to deliver transparent, personalized insurance  Quotes and solutions that align with their unique circumstances and goals. 
-    image: "/images/Margarita-HeroPic.jpg"
+      Insurance Broker with over 9 years of experience working directly with individuals and families to assess their needs and deliver 
+      accurate, personalized insurance solutions. I specialize in guiding clients through ACA Marketplace plans, Medicare Advantage, Medigap, 
+      Medicare Part D, Life insurance, and a full range of supplemental and ancillary products. My role centers on conducting needs‑based 
+      assessments, presenting clear plan comparisons, verifying eligibility, and supporting clients through enrollment, renewals, and policy 
+      changes across multiple carriers, including Florida Blue.  Dedicated to providing transparent information and responsible recommendations, 
+      I uphold all CMS, ACA, and Florida DFS ethical standards while ensuring every client receives compliant, accurate, and trustworthy insurance 
+      guidance tailored to their unique circumstances.
+
+    image: "/images/Margarita-HeroPic2.jpg"
     bottomImage:
       enable: true
     buttons:
