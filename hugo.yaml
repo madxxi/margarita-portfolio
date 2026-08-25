@@ -263,7 +263,7 @@ params:
   # Use this section for certifications, veteran recognition, or specific
   # wins you can point to — swap the placeholders for real specifics.
   achievements:
-    enable: true
+    enable: false
     title: "Background & Recognition"
     items:
       - title: "Mention your achievement title here"
@@ -275,7 +275,7 @@ params:
   # Replace each `link` below with the real GitHub repo URL once you push
   # your sanitized PromQL library, Grafana dashboards, and runbook.
   projects:
-    enable: true
+    enable: false
     title: "Projects and Demos"
     items:
       - title: "[Title]"
