@@ -1,0 +1,35 @@
+/* Skills list — override the theme's fixed 2-column grid (#about ul),
+   which forces every skill into a 140-200px column regardless of text
+   length, causing longer labels to wrap awkwardly across several lines.
+   A wrapping flex layout of pills lets each skill take exactly the
+   width it needs and reflows naturally at any screen size. */
+#about ul.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 12px;
+    padding: 0;
+    margin: 20px 0 0;
+    list-style: none;
+    overflow: visible;
+}
+
+#about ul.skills-list li {
+    position: static;
+    margin: 0;
+    padding: 6px 16px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 999px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    max-width: 100%;
+}
+
+/* Remove the theme's default "▹" bullet marker, which was positioned
+   for the old left-aligned list layout and doesn't fit a pill. This
+   needs !important to beat the site's own bullet override in
+   layouts/partials/head/extensions.html. */
+#about ul.skills-list li::before {
+    content: none !important;
+}
