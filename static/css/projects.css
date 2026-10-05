@@ -1,0 +1,52 @@
+/* Keep project cards a consistent height by capping the description
+   text to roughly 9-10 lines and letting it scroll internally beyond that. */
+.card-text-scroll {
+    max-height: 15.5em;   /* ~9-10 lines at the theme's default font-size/line-height */
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+/* Thin, theme-colored scrollbar (WebKit/Chromium/Safari) */
+.card-text-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.card-text-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.card-text-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    opacity: 0.5;
+    border-radius: 3px;
+}
+
+/* Firefox */
+.card-text-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) transparent;
+}
+
+/* Top-align card content instead of letting it appear centered.
+   The root cause was Bootstrap's h-100 equal-height row: with the
+   longest card in a row setting the height for every card in that
+   row, shorter cards ended up with a large block of empty space
+   somewhere inside them. Rather than trying to relocate that empty
+   space with flex tricks, removing h-100 removes it at the source —
+   each card now sizes to its own content, full stop. Any leftover
+   height in a row just becomes invisible gutter space below the
+   shorter cards, outside the visible card box, instead of dead
+   space the eye reads as awkward centering. */
+#projects .card {
+    height: auto !important;
+}
+
+/* Close the remaining gap between the logo and the badges/title
+   below it. Bootstrap's .card-body carries a flat 1rem of padding on
+   every side by default; cutting just the top side brings the text
+   noticeably closer to the image above without touching the left,
+   right, or bottom padding that keeps the rest of the card looking
+   balanced. */
+#projects .card .card-body {
+    padding-top: 0.5rem !important;
+}

@@ -128,31 +128,41 @@ params:
 
     skills:
       enable: true
-      title: "Core tools and technologies:"
-      items:
-        - "Leadership / Supervisor / Mentoring"
-        - "Training / Onboarding"
-        - "Export/Import Documentation"
-        - "Air, Ocean, and Ground Logistics"
-        - "Supply Chain Management"
-        - "Customer Service / Client Relations" 
-        - "Bilingual (English/Spanish)"
-        - "Strategic Planning / Process Improvement"
-        - "Problem Solving / Conflict Resolution"
-        - "TSA-Certified / Security Compliance"
-        - "Insurance Agent / HealthMarkets"
-        - "Medicare & ACA Marketplace Certified"
-        - "Insurance Solutions / Supplemental Plans"
-        - "Insurance Solutions / Individual Health Plans"
-        - "Insurance Solutions / Life Insurance Plans"
-        - "Insurance Solutions / Travel Insurance Plans"
-        - "Insurance Solutions / Medicare Plans"
-        - "Insurance Solutions / Medicare Part D Plans"
-        - "Insurance Solutions / Turning 65 Guidance"
-        - "Insurance Solutions / Beneficiaries & Under 65 Customers"
-        - "Insurance Solutions / Personalized Quotes & Solutions"
-        - "Insurance Solutions / Transparent & Tailored Coverage Options"
-        
+      title: "My Professional Toolkit"
+      subtitle: "Two career tracks, grouped the way they show up on my resume."
+      categories:
+        - name: "Logistics & Supply Chain Management"
+          icon: "fas fa-ship"
+          items:
+            - name: "Export/Import Documentation"
+            - name: "Air, Ocean, and Ground Logistics"
+            - name: "Supply Chain Management"
+            - name: "TSA-Certified / Security Compliance"
+        - name: "Insurance & Healthcare Solutions"
+          icon: "fas fa-shield-heart"
+          items:
+            - name: "Insurance Agent / HealthMarkets"
+            - name: "Medicare & ACA Marketplace Certified"
+            - name: "Supplemental Plans"
+            - name: "Individual Health Plans"
+            - name: "Life Insurance Plans"
+            - name: "Travel Insurance Plans"
+            - name: "Medicare Plans"
+            - name: "Medicare Part D Plans"
+            - name: "Turning 65 Guidance"
+            - name: "Beneficiaries & Under-65 Customers"
+            - name: "Personalized Quotes & Solutions"
+            - name: "Transparent & Tailored Coverage Options"
+        - name: "Leadership & Professional Skills"
+          icon: "fas fa-people-arrows"
+          items:
+            - name: "Leadership / Supervisor / Mentoring"
+            - name: "Training / Onboarding"
+            - name: "Customer Service / Client Relations"
+            - name: "Bilingual (English/Spanish)"
+            - name: "Strategic Planning / Process Improvement"
+            - name: "Problem Solving / Conflict Resolution"
+
   # ---- EXPERIENCE ----
   # Add all earlier roles and additional "company" blocks.
   experience:

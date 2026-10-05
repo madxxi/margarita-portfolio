@@ -4,6 +4,44 @@
     <div class="container bg-transparent">
         <h3 class="text-center bg-transparent">{{ $about.title | default (i18n "about") }}</h3>
         <div class="bg-transparent row justify-content-center px-3 py-5">
+            <div class="col-sm-12 col-md-12 col-lg-8 content">
+                {{ $about.content | markdownify }}
+
+                {{ if .Site.Params.about.skills.enable }}
+                {{ $skills := .Site.Language.Params.about.skills | default .Site.Params.about.skills }}
+                <div class="skills-toolkit">
+                    {{ with $skills.title }}<h4 class="skills-toolkit-title">{{ . }}</h4>{{ end }}
+                    {{ with $skills.subtitle }}<p class="skills-toolkit-subtitle">{{ . }}</p>{{ end }}
+                    {{ if $skills.categories }}
+                    <div class="skills-grid">
+                        {{ range $skills.categories }}
+                        <div class="skill-cat">
+                            <h5>
+                                {{ with .icon }}<span class="skill-cat-ico"><i class="{{ . }}"></i></span>{{ end }}
+                                <span>{{ .name }}</span>
+                            </h5>
+                            <div class="tag-list">
+                                {{ range .items }}
+                                {{ if .url }}
+                                <a class="tag" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                                {{ else }}
+                                <span class="tag">{{ .name }}</span>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ else }}
+                    <ul class="skills-list">
+                        {{ range $skills.items }}
+                        <li>{{ . | markdownify }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
             {{ if .Site.Params.about.image }}
             <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
                 <div class="image d-flex px-5">
@@ -11,18 +49,6 @@
                 </div>
             </div>
             {{ end }}
-            <div class="col-sm-12 col-md-12 col-lg-8 content">
-                {{ $about.content | markdownify }}
-
-                {{ if .Site.Params.about.skills.enable }}
-                {{ $about.skills.title | default .Site.Params.about.skills.title }}
-                <ul class="skills-list">
-                    {{ range .Site.Params.about.skills.items }}
-                    <li>{{ . | markdownify }}</li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-            </div>
         </div>
     </div>
 </section>

@@ -1,3 +1,5 @@
 public/
 resources/_gen/
 .hugo_build.lock
+layouts/index.html:Zone.Identifier
+layouts/partials/sections/about.html:Zone.Identifier

@@ -31,11 +31,46 @@
         content: "\2022" !important; /* standard bullet, broad font support */
     }
 
+    /* Vertical spacing between sections. Previously only 4 of the 7
+       sections were covered here, and even those used a flat 2rem for
+       every screen size — on a phone that's still ~64px of blank space
+       between every section (2rem top + 2rem bottom), which reads as a
+       lot more empty space than the same 2rem does on a wide desktop
+       view. Tightened the base value and added a smaller mobile value. */
     #about,
-    #certifications,
+    #experience,
     #education,
-    #projects {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
+    #certifications,
+    #projects,
+    #achievements,
+    #contact {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    @media (max-width: 576px) {
+        #about,
+        #experience,
+        #education,
+        #certifications,
+        #projects,
+        #achievements,
+        #contact {
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
+        }
+    }
+
+    /* The outer <section> padding above wasn't the whole story: About,
+       Experience, and Education each also have a second, independent
+       py-5 (another 3rem top + 3rem bottom = 96px) on an inner wrapper
+       div, completely separate from the section's own padding. That
+       inner padding was untouched by the rule above, which is why the
+       gap between sections barely changed. */
+    #about .row.py-5,
+    #experience .py-5,
+    #education .row.py-5 {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
     }
 </style>

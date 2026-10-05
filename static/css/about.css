@@ -33,3 +33,103 @@
 #about ul.skills-list li::before {
     content: none !important;
 }
+
+/* "My Professional Toolkit" — categorized skills grid, replacing the
+   flat pill list above for any category that groups its own items.
+   Each category is its own card (name + icon) holding a wrapping list
+   of small tag pills, so the two career tracks (logistics vs.
+   insurance) read as distinct groupings instead of one long run-on
+   list. A tag is a plain <span> normally, or an <a> when the YAML
+   entry sets a `url`. */
+.skills-toolkit {
+    margin-top: 1.75rem;
+}
+
+.skills-toolkit-title {
+    font-family: "Space Grotesk", "Inter", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+.skills-toolkit-subtitle {
+    color: var(--text-secondary-color);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+/* auto-fit + minmax sizes off this grid's own rendered width (it only
+   occupies the content column, not the full viewport), so the card
+   count adapts correctly on wide screens instead of getting stuck at
+   a fixed count tied to viewport breakpoints. */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.1rem;
+}
+
+.skill-cat {
+    background-color: var(--background-color);
+    border: 1px solid var(--secondary-background-color);
+    border-radius: 1rem;
+    padding: 1.15rem 1.25rem 1.1rem;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, .04), 0 8px 24px rgba(15, 23, 42, .06);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.skill-cat:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(15, 23, 42, .12);
+}
+
+.skill-cat h5 {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: "Space Grotesk", "Inter", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.9rem;
+}
+
+.skill-cat-ico {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--secondary-background-color);
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    flex-shrink: 0;
+}
+
+.skill-cat .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-cat .tag {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+a.skill-cat .tag,
+.skill-cat a.tag {
+    cursor: pointer;
+}
+
+.skill-cat a.tag:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
